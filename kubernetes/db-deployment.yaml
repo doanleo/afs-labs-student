@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: registry.dev.afsmtddso.com/ldoan-harbor-project/db:a72dd07-143f14f
+        image: registry.dev.afsmtddso.com/ldoan-harbor-project/db:0f9f4d1-143f14f
         ports:
         - containerPort: 5432
